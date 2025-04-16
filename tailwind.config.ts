@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -21,23 +20,23 @@ export default {
     extend: {
       colors: {
         border: "hsl(var(--border))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: "hsl(240, 20%, 98%)",
+        foreground: "hsl(240, 10%, 20%)",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(250, 70%, 60%)",
+          foreground: "hsl(240, 10%, 20%)",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "hsl(210, 60%, 70%)",
+          foreground: "hsl(240, 10%, 20%)",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "hsl(270, 50%, 75%)",
+          foreground: "hsl(240, 10%, 20%)",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "hsl(0, 0%, 100%)",
+          foreground: "hsl(240, 10%, 20%)",
         },
       },
       fontFamily: {
